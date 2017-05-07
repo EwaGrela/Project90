@@ -1,6 +1,6 @@
 # Project90
 The site can be seen here: https://ewagrela.github.io/project90/
-CodersLab course final project, a site about the 90s, with a few quizes, memo game and a name-a-band game.
+##CodersLab course final project, a site about the 90s, with a few quizes, memo game and a name-a-band game.
 ## Website about the 90s
 
 1. The menu directs to each section of the site
