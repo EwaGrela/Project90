@@ -1,0 +1,770 @@
+{
+	"quizes": [
+	    [{
+	            "title": "Name two most popular boybands of the 90s",
+	            "answers": ["bsb and nsync", "1-D and 5ive", "take that and nkotb"],
+	            "correct": "bsb and nsync"
+	        },
+	        {
+	            "title": "Which girlband released their hit single 'Wannabe' in 1996?",
+	            "answers": ["spice girls", "funky diamonds", "solid harmony"],
+	            "correct": "spice girls"
+	        },
+	        {
+	            "title": "Which band was a grunge band from Seattle?",
+	            "answers": ["captain jack", "stone temple pilots", "pearl jam"],
+	            "correct": "pearl jam"
+	        },
+	        {
+	            "title": "Name the dance music genre from the 90s",
+	            "answers": ["eurodance", "edm", "deep house"],
+	            "correct": "eurodance"
+	        },
+	        {
+	            "title": "Name the Irish band consisting of family members",
+	            "answers": ["the moffats", "hanson", "the kelly family"],
+	            "correct": "the kelly family"
+	        },
+	        {
+	            "title": "Which TV show did NOT run in the 90s?",
+	            "answers": ["sex and the city", "gossip girl", "friends"],
+	            "correct": "gossip girl"
+	        },
+	        {
+	            "title": "What is the other name of grunge birthplace?",
+	            "answers": ["the rainy state", "the evergreen state", " the garden state"],
+	            "correct": "the evergreen state"
+	        },
+	        {
+	            "title": "Two frenemies from 'Beverly Hills 90210' are...",
+	            "answers": ["blair and serena", "brenda and kelly", "monica and rachel"],
+	            "correct": "brenda and kelly"
+	        },
+	        {
+	            "title": "Name the taxi driver from the cult Polish soap opera 'Klan' ",
+	            "answers": ["Rysiek", "Zdzisiek", "Stasiek"],
+	            "correct": "Rysiek"
+	        },
+	        {
+	            "title": "Which were the electronic toys kept as pets?",
+	            "answers": ["furigi and tamaru", "furby and tamagotchi", "tamagoru and fibura"],
+	            "correct": "furby and tamagotchi"
+	        },
+	        {
+	            "title": "What year were JavaScript & PHP invented in?",
+	            "answers": ["1996", "1992", "1995"],
+	            "correct": "1995"
+	        },
+	        {
+	            "title": "Where did Robbie Williams start his career?",
+	            "answers": ["take that", "boyzone", "east-17"],
+	            "correct": "take that"
+	        },
+	        
+	        { 	"title":"What was the name of the TV show hosted by Krzysztof Ibisz?",
+	        	"answers":["Czar par","Randka w ciemno","Familiada"],
+	        	"correct":"Czar par"
+
+	        }
+	    ],
+
+	    [	{
+	            "title": "Which boyband sang 'Quit playing games'?",
+	            "answers": ["backstreet boys", "nsync", "take that"],
+	            "correct": "backstreet boys"
+	        },
+	        
+	        {	"title": "What was the name of 'Wheel of fortune' hostess?",
+	        	"answers": ["Ilona Felicjanska","Magda Masny","Agnieszka Maciag"],
+	        	"correct": "Magda Masny"
+
+	        },
+	        {	"title":"First Polish boyband was called...?",
+	        	"answers":["JUST5","FiveBoys","The Boys"],
+	        	"correct": "JUST5"
+
+	        },
+	        {
+	            "title": "What was Rysiek Lubicz's catchphrase?",
+	            "answers": ["wash your hands", "let's eat", "hurry up"],
+	            "correct": "wash your hands"
+	        },
+	        {
+	            "title": "Who covered George Michael's 'Freedom'?",
+	            "answers": ["nick carter", "justin timberlake", "robbie williams"],
+	            "correct": "robbie williams"
+	        },
+	        {
+	            "title": "This TV series from the 80s was a big hit in 90s Poland:",
+	            "answers": ["Dynasty", "Melrose Place", "Dr House"],
+	            "correct": "Dynasty"
+	        },
+	       	{
+	       		"title": "Name the Polish soap opera aired first in 1997?",
+	       		"answers": ["Klan","W labiryncie","Barwy szczęścia"],
+	       		"correct": "Klan"
+	       	},
+	        {
+	            "title": "These two bands are British:",
+	            "answers": ["five and take that", "east 17 and nkotb", "nsync and bsb"],
+	            "correct": "five and take that"
+	        },
+	        {
+	            "title": "These two bands are Irish:",
+	            "answers": ["take that and nkotb", "east 17 and 98degrees", "westlife and boyzone"],
+	            "correct": "westlife and boyzone"
+	        },
+	        {
+	            "title": "'If you got the feeling' is a song by...",
+	            "answers": ["five", "east 17", "backstreet boys"],
+	            "correct": "five"
+	        },
+	        {
+	            "title": "Backstreet Boys' first hit single was released in...",
+	            "answers": ["1995", "1994", "1997"],
+	            "correct": "1995"
+	        },
+	        {
+	            "title": "How many members did the Kelly Family have?",
+	            "answers": ["five", "six", "a lot"],
+	            "correct": "a lot"
+	        },
+	        {
+	            "title": "In which country did the Backstreet Boys become famous last?",
+	            "answers": ["USA", "Germany", "Poland"],
+	            "correct": "USA"
+	        }
+	    ],
+	    [	{
+	            "title": "What was the name of Paddy Kelly's brother?",
+	            "answers": ["aaron", "bobbie", "angelo"],
+	            "correct": "angelo"
+	        },
+	        { "title": "This song by Corona is the most often covered:",
+	        	"answers":["Coco jambo", "What is love", "Rhythm of the night"],
+	        	"correct": "Rhythm of the night"
+
+	        },
+
+	        {
+	            "title": "Which band sang 'Blackhole sun?",
+	            "answers": ["soundgarden", "the smashing pumpkins", "nirvana"],
+	            "correct": "soundgarden"
+	        },
+	        {
+	            "title": "Whose brother dated Lindsay Lohan?",
+	            "answers": ["nick carter's", "justin timberlake's", "mark owen's"],
+	            "correct": "nick carter's"
+	        },
+	        {
+	            "title": "Member of which Irish boyband came out to the public?",
+	            "answers": ["nsync", "take that", "boyzone"],
+	            "correct": "boyzone"
+	        },
+	        {
+	            "title": "Who dated Paris Hilton?",
+	            "answers": ["lance bass", "nick carter", "justin timberlake"],
+	            "correct": "nick carter"
+	        },
+	        {
+	            "title": "What was the name of Rysiek Lubicz's wife?",
+	            "answers": ["beata", "monika", "grażyna"],
+	            "correct": "grażyna"
+	        },
+	        {
+	            "title": "Which band had a duet with Queen?",
+	            "answers": ["five", "boyzone", "take that"],
+	            "correct": "five"
+	        },
+	        {
+	            "title": "Furby was invented in...",
+	            "answers": ["1995", "1998", "1997"],
+	            "correct": "1998"
+	        },
+	        {
+	            "title": "Name the pop/dance festival held in Germany and Austria?",
+	            "answers": ["The Doom", "The Dance Off", "The Dome"],
+	            "correct": "The Dome"
+	        },
+	        {
+	            "title": "Nirvana's Dave Grohl founded another band:",
+	            "answers": ["Our Lady Peace", "Foo Fighters", " The Smashing Pumpkins"],
+	            "correct": "Foo Fighters"
+	        },
+	        { 	"title":"Which British band attempted to sing in Polish?",
+	        	"answers":["take that", "east17", "worlds apart"],
+	        	"correct":"worlds apart"
+
+	        },
+	        { 	"title":"Who met with Polish president and ministers in 1996?",
+	        	"answers":["Michael Jackson", "Kurt Cobain", "Mc Hammer"],
+	        	"correct":"Michael Jackson"
+
+	        }
+
+	    ]
+
+	],
+
+"personality": [{
+	        "questions": [{
+	                "title": "Your favourite food?",
+	                "answers": [{
+	                        "answer": "pizza",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "home cooked",
+	                        "result": "paddy"
+	                    },
+	                    {
+	                        "answer": "sushi",
+	                        "result": "nick"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "City or countryside?",
+	                "answers": [{
+	                        "answer": "countryside!",
+	                        "result": "paddy"
+	                    },
+	                    {
+	                        "answer": "i love city",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "both",
+	                        "result": "nick"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Favourite music?",
+	                "answers": [{
+	                        "answer": "pop rock",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "pop, folk, rock...",
+	                        "result": "paddy"
+	                    },
+	                    {
+	                        "answer": "rnb and pop",
+	                        "result": "justin"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your ideal boyfriend would be?",
+	                "answers": [{
+	                        "answer": "sexy and fun",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "shy and sweet",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "romantic and serious",
+	                        "result": "paddy"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your ideal date?",
+	                "answers": [{
+	                        "answer": "film night, making out",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "long walk on the beach",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "playing guitar and singing",
+	                        "result": "paddy"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Are looks important?",
+	                "answers": [{
+	                        "answer": "of course they are!",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "quite",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "not at all",
+	                        "result": "paddy"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Describe your personal style:",
+	                "answers": [{
+	                        "answer": "skinny jeans, crop top",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "short dresses",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "maxi dresses",
+	                        "result": "paddy"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite 90s film",
+	                "answers": [{
+	                        "answer": "matrix",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "philadelphia",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "titanic",
+	                        "result": "paddy"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite song is...",
+	                "answers": [{
+	                        "answer": "i want you back",
+	                        "result": "justin"
+	                    },
+	                    {
+	                        "answer": "quit playing games",
+	                        "result": "nick"
+	                    },
+	                    {
+	                        "answer": "angel",
+	                        "result": "paddy"
+	                    }
+	                ]
+
+	            }
+	        ],
+	        "results": ["justin", "nick", "paddy"],
+	        "descriptions": ["Your dream boy is Justin. Like him, you are sexy, outgoing and fun. You like pop music, pizza and there is no party without you!",
+	        				"Your dream boy is Nick. Like him you are nice, cute and a bit of a romantic soul. You like long walks on the beach, good wine and soul music",
+	        				"Your dream boy is Paddy. Like him, you are romantic, sensitive and kind. You like nature, good food and are loyal to your friends and family",	
+							"Well, you cannot decide, can you? Each of them is special and so are you."],
+	        "myTitle": "Find your 90s boyfriend"
+	    },
+	    {
+	        "questions": [{
+	                "title": "Your friends say you are...",
+	                "answers": [{
+	                        "answer": "weird but in a good way",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "down-to-earth",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "a bit spoilt but nice",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "What are you like at work?",
+	                "answers": [{
+	                        "answer": "easily distracted",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "disciplined and hardworking",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "a bit lazy",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Favourite music?",
+	                "answers": [{
+	                        "answer": "folk, psychodelic rock",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "pop and rock",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "pop, dance, hip hop",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your ideal boyfriend would be?",
+	                "answers": [{
+	                        "answer": "spiritual, mysterious",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "reliable and serious",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "handsome and rich",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite food",
+	                "answers": [{
+	                        "answer": "fruits and vegetables",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "steak and salad",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "sushi",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your relationship with parents is...?",
+	                "answers": [{
+	                        "answer": "very loose",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "we are close ",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "they dominate me",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Describe your style:",
+	                "answers": [{
+	                        "answer": "boho/hippie",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "casual elegance",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "dressed to the 9s",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite book?",
+	                "answers": [{
+	                        "answer": "life of pi",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "millenium",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "books? ewww...",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your partner should...",
+	                "answers": [{
+	                        "answer": "understand me",
+	                        "result": "phoebe"
+	                    },
+	                    {
+	                        "answer": "support me",
+	                        "result": "monica"
+	                    },
+	                    {
+	                        "answer": "cater to me",
+	                        "result": "rachel"
+	                    }
+	                ]
+
+	            }
+	        ],
+	        "results": ["phoebe", "monica", "rachel"],
+	        "descriptions": [
+							"You are Phoebe! Might seem strange and peculiar but you are always there to help your friends out",
+							"You are Monica! Down to earth and maybe a little bit too uptight, but loyal and trustworthy",
+							"You are Rachel. It might seem you are a bit of an entitled princess but you will always finally get your act together",
+							"Well, you cannot decide, can you? Each of them is special and so are you."
+							],
+	        "myTitle": "Which Friends female character are you?"
+	    },
+	    {
+	        "questions": [{
+	                "title": "You are best known for your...",
+	                "answers": [{
+	                        "answer": "bravery",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "intelligence and wit",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "loyalty",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "What were you like at school?",
+	                "answers": [{
+	                        "answer": "excelled at 1-2 subjects",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "straight A student",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "average student",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite color?",
+	                "answers": [{
+	                        "answer": "red, gold, black",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "blue, green, silver",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "orange, yellow, brown",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your ideal partner would...?",
+	                "answers": [{
+	                        "answer": " be independent",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "make me smile",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "inspire me",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite food?",
+	                "answers": [{
+	                        "answer": "home made food",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "healthy and nutritious",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "all food, i love food!",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your relationship with parents is...?",
+	                "answers": [{
+	                        "answer": "i look up to them",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "we are very different",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "we are very close",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your dream profession?",
+	                "answers": [{
+	                        "answer": "journalist, traveller",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "scientist, doctor, web developer",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "chef, footballer, celebrity",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Best film ever?",
+	                "answers": [{
+	                        "answer": "matrix",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "animatrix",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "star trek",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            },
+	            {
+	                "title": "Your favourite animal?",
+	                "answers": [{
+	                        "answer": "deer, eagle, lion",
+	                        "result": "harry"
+	                    },
+	                    {
+	                        "answer": "cat, otter, bee",
+	                        "result": "hermione"
+	                    },
+	                    {
+	                        "answer": "dog, horse, bull",
+	                        "result": "ron"
+	                    }
+	                ]
+
+	            }
+	        ],
+	        "results": ["harry", "hermione", "ron"],
+	        "descriptions": [
+							"You are Harry. Brave and true to yourself but sometimes you feel a bit misunderstood and need time on your own",
+							"You are Hermione. Best known for your intelligence and wit, you are always there to help others out",
+							"You are Ron. You might feel overlooked but in the end it is you who saves the day and shines",
+							"Well, you cannot decide, can you? Each of them is special and so are you."
+							],
+	        "myTitle": "Which Harry Potter character are you?"
+	    }
+	],
+	"texts": [
+		"Partly inspired by the late 80s rave-culture, Eurodance was a very popular music trend in the 90s, alongside with grunge. Notable groups included Masterboy, Fun Factory, Captain Jack and Mr President. Ask anyone who was a child in the 90s if they have ever heard of 'the Dome' or 'Popcorn Hits' and they will tell you.",
+		"A movement in the mid 90s, encouraging young women to be brave and daring, a part of third wave feminism. The term was coined by and associated with British girlband Spice Girls, whose hit single, 'Wannabe' topped the charts in late 1996.",
+		"Boybands were the hit in the 90s! The hype started in the late 80s with the American group New Kids on the Block. Later came the Brits and bands like East17 and Take That became popular. One could say they were to the 90s pop music what frameworks are to JavaScript developers - not a day passed without one emerging. However, in the end only two boybands really mattered - Backstreet Boys and NSYNC.",
+		"Fashion in the 90s was very varied, however several major trends are worth reminding. There are the grunge/hippie like clothes, there are also bright tank tops and low cut jeans, very like the ones Britney and Christina wore and last but not least - minimalism, which basically meant wearing all black. Other stuff? Babydoll dresses, over the knee socks, flared jeans, flanel shirts, butterfly clips, slip dresses...you name it, the list is long!",
+		"The 90s were the last decade of the century and it was also the end of the Millenium. This might contribute to the fact why there was so much focus on spirituality. This was generally very positive, in fact the 90s were very similar to the 60s in that matter! Unfortunately, this also meant some people sought solace in quasi religions and now and then one heard of mass suicide of the members of such groups.",
+		"The 90s were not all about happy pop songs and catchy dance tunes. Have you ever heard of Nirvana, Soundgarden, The Smashing Pumpkins or Pearl Jam? Well, I bet you have. These are the bands which peaked at that time and were the most popular in the genre. Grunge comes from Seattle, where it rains 360 days a year. The Evergreen State is not only home to sparkling vampires, but to some really meaningful music which defined a generation.",
+		"The 90s were not a time of reality shows, people preferred to watch soap operas. The most popular and cult were Beverly Hills 90210 and Friends. The first was aimed at high schoolers and the latter was supposed to portray generation X. Girls wanted to be like Brenda and Kelly or like Monica and Rachel. Later in the decade another soap opera, Sex and the City was also becoming increasingly popular.",
+		"Bravo was one of the most popular teen magazines of the era. It had posters of your favourite stars you could plaster to your bedroom walls and also included vital life advice and foto-stories which dealt with important topics such as satanism and teen pregnancy. Other notable teen magazines included Popcorn, Bravo Girl and Megastar.",
+		"As the end of the millenium approached, many feared the end of the world. The fear manifested in seeking solace in meditation, religion and other forms of spirituality. Some were afraid that the millenium bug will erase all the data from our computers and the civilization will collapse. Well, nothing happened and the 90s were followed by 00s, a decade completely different in its Zeitgeist.",
+		"Klan is said to be the first Polish soap opera. In middle 1997 Polish TV announced a competition, aired pilot episodes of three TV series and people chose a story of Lubicz family and their trials and tribulations. Still going strong after 20 years it has become a cult classic. It is rumoured each year that they are about to take it down, but I do not think that will ever happen. No ruling party is that stupid. In fact, they are using it to promote certain things. Clever move, politicians!",
+		"Bassicaly anyone growing up in the 90s was either into grunge or hip hop, or pop. You would think the fans of the last genre were sweet natured and calm, right? Wrong! Girls in their very early teens would go as far as brawl in the school corridor just because one of them was into Justin and the other one preffered Nick (Or Paddy. Or Angelo. Or Taylor. Or Gil. Or Mark...the list is long).",
+		"The 90s were a very special decade for our country. At the very dawn of the decade we got to elect our President for the very first time. A year later we voted in the very first completely democratic elections (Those in 1989 were only partially free). It was a time our country opened to the world. By the end of the decade Poland was a member of NATO.",
+		"After the fall of the communism Polish lifestyle changed vastly. Finally, there were many colourful clothes, toys and other items to purchase, provided one could afford it. It was not until the 90s that I could have things to eat like pineapples or German chocolate. They might seem very affordable now, but then were considered luxury. One could say that compared to the previous decade we were living lavish. There was only one big but - one had to have money to afford it and the new times were hard on some people."
+
+
+	],
+
+
+	"bandName": [
+            {
+        "bandQuestions": [
+            {
+              "title": "Are you a family band?",
+              "answers": ["yes", "no"]
+            },
+            { "title": "What kind of music do you guys play?",
+                "answers": ["pop", "dance", "grunge"]
+            },
+            { "title": "Are we talking discopolo or eurodance here?",
+                "answers": ["discopolo", "eurodance"]
+            },
+            { "title": "What gender are you?",
+                "answers": ["girls", "boys"]
+            },
+            { "title": "Are you good guys or bad boys?",
+                "answers": ["good guys", "bad boyz"]
+            },
+            { "title": "Are you nice or wild?",
+                "answers": ["nice", "wild"]
+            }
+        ],
+        "bandResults":{
+            "family":["Guys, guys! It is really simple. Just put 'the' before your family name in plural and you're all set!", " 'The + {your family name} + family'. You're welcome."],
+            "grunge":["Mudslide", "Drops of Mercury", "Samsara", "Puddles of Dirt", "Middle of Anywhere", "Walking Trees", "Silent Hills"],
+            "discopolo": ["Xero", "Vizzer", "Vixxer", "Fixer", "Audio Tele", "Play Power"],
+            "eurodance": ["U94 ", "25/7", "Unlimited 3", "Mr Hollywood", "FSX", "Captain Jeff"],
+            "boybandGood": ["In Harmony", "The Voices", "Five 4 U", "Right Direction","White Knights","Boys R Guys"],
+            "boybandBad": ["Bad Boyz", "ShakeDat", "InThaMix", "The Guyz", "5ive", "Night Riderzz"],
+            "girlbandGood":["The Harmonies", "Sweet Harmony", "Back 2 Basic", "Angel Voices", "Sweethearts", "The Angelics", "Angel Of Mine"],
+            "girlbandBad": ["2Hot4U", "$weet'N'$picy", "Chilli Babe$", "Pwr Grlz", "Diabolique", "Bad Grlz", "Gurlz", "Wild Ones"]
+
+        },
+
+        "bandvideos":{
+        	"family":["https://www.youtube.com/watch?v=Ve0AS8Voc4M", "https://www.youtube.com/watch?v=vBjrbVoBF9c", "https://www.youtube.com/watch?v=NHozn0YXAeE","https://www.youtube.com/watch?v=B5MAF4Mf-BY", "https://www.youtube.com/watch?v=AIGGVIkcyWU"],
+            "grunge":["https://www.youtube.com/watch?v=hTWKbfoikeg", "https://www.youtube.com/watch?v=MS91knuzoOA","https://www.youtube.com/watch?v=3mbBbFH9fAg","https://www.youtube.com/watch?v=vabnZ9-ex7o","https://www.youtube.com/watch?v=v0nn-kNH1ZI"],
+            "discopolo": ["https://www.youtube.com/watch?v=gShaZuHjFPY", "https://www.youtube.com/watch?v=JLfnWq4R_p8","https://www.youtube.com/watch?v=axw8roic0KE","https://www.youtube.com/watch?v=rAz93ck6cRk","https://www.youtube.com/watch?v=yDb8dONh6Ww"],
+            "eurodance": ["https://www.youtube.com/watch?v=CkxmdNlvnks", "https://www.youtube.com/watch?v=gwVxXEYrgZk","https://www.youtube.com/watch?v=Ma24wmAjRGo","https://www.youtube.com/watch?v=WMPM1q_Uyxc","https://www.youtube.com/watch?v=flc5dSM3OC4"],
+            "boybandGood": ["https://www.youtube.com/watch?v=7eul_Vt6SZY", "https://www.youtube.com/watch?v=kxsFwoh3cik","https://www.youtube.com/watch?v=uNmGl3qAAZg","https://www.youtube.com/watch?v=0Gl2QnHNpkA&list=RDuNmGl3qAAZg&index=20","https://www.youtube.com/watch?v=tyANFcnrM8I"],
+            "boybandBad": ["https://www.youtube.com/watch?v=qZUn-KtTNmA","https://www.youtube.com/watch?v=is6gtilerPk","https://www.youtube.com/watch?v=qpqAXZI0s0s","https://www.youtube.com/watch?v=6M6samPEMpM","https://www.youtube.com/watch?v=opQQ2mbXuwI"],
+            "girlbandGood":["https://www.youtube.com/watch?v=sQgd6MccwZc", "https://www.youtube.com/watch?v=0WItFGucXT4"],
+            "girlbandBad": ["https://www.youtube.com/watch?v=9ro0FW9Qt-4", "https://www.youtube.com/watch?v=yzvPfeObiu0","https://www.youtube.com/watch?v=gJLIiF15wjQ","https://www.youtube.com/watch?v=G4QzM9KqCQU", "https://www.youtube.com/watch?v=Vjw92oUduEM&list=PL5xzJjJGNNhXvNSoR0EdU_1J4eUGpLNeD"]
+        }
+    }
+]
+
+}	
+	
+
+	

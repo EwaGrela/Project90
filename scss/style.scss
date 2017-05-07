@@ -1,0 +1,1683 @@
+@import "_variables";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body:before{
+  content: "";
+  display: block;
+  position: fixed;
+  opacity: 0.65;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  z-index: -10;
+  background-color: $baseColor;
+  background-image: url("../images/furby-974707_640.jpg");
+  //background-image: url("../images/rainbows.png");
+  background-repeat:  no-repeat;
+  background-position:  center center;
+  background-size: cover;
+}
+
+body {
+	max-width: 100vw;
+	width: 100%;
+	background-color: lighten($sixthColor, 40%);
+
+
+}
+section {
+	border: 4px solid mix($sixthColor, $fifthColor);
+	border-radius: 2%;
+	max-width: 100vw;
+	margin: 70px 10px;
+	
+}
+
+@keyframes appear {
+ 	0% {
+ 		opacity:0;
+ 		transform: scale(0.1);
+ 		
+ 	}
+ 	5% {
+ 		opacity:0.05;
+ 		transform: scale(0.1);
+ 	}
+ 	10% {
+ 		opacity: 0.1;
+ 		transform: scale(0.1);
+ 		
+ 	}
+ 	15% {
+ 		opacity:0.15;
+ 		transform: scale(0.15);
+ 	}
+
+ 	20% {
+ 		opacity: 0.2;
+ 		transform: scale(0.2);
+ 		
+ 	}
+ 	25% {
+ 		opacity:0.25;
+ 		transform: scale(0.25);
+ 	}
+ 	30% {
+ 		opacity: 0.3;
+ 		transform: scale(0.3);
+ 		
+ 	}
+ 	35% {
+ 		opacity:0.35;
+ 		transform: scale(0.35);
+ 	}
+ 	40% {
+ 		opacity: 0.4;
+ 		transform: scale(0.4);
+ 		
+ 	}
+ 	45% {
+ 		opacity:0.45;
+ 		transform: scale(0.45);
+ 	}
+ 	50% {
+ 		opacity: 0.5;
+ 		transform: scale(0.5);
+ 		
+ 	}
+ 	55% {
+ 		opacity:0.55;
+ 		transform: scale(0.55);
+ 	}
+ 	60% {
+ 		opacity: 0.6;
+ 		transform: scale(0.6);
+ 		
+ 	}
+ 	65% {
+ 		opacity:0.65;
+ 		transform: scale(0.65);
+ 	}
+ 	70% {
+ 		opacity: 0.7;
+ 		transform: scale(0.7);
+ 		
+ 	}
+ 	75% {
+ 		opacity:0.75;
+ 		transform: scale(0.75);
+ 	}
+ 	80% {
+ 		opacity: 0.8;
+ 		transform: scale(0.8);
+ 		
+ 	}
+ 	85% {
+ 		opacity:0.85;
+ 		transform: scale(0.85);
+ 	}
+ 	90% {
+ 		opacity: 0.9;
+ 		transform: scale(0.9);
+ 		
+ 	}
+ 	95% {
+ 		opacity:0.95;
+ 		transform: scale(0.95);
+ 	}
+ 	100% {
+ 		opacity: 1.0;
+ 		transform: scale(1.0);
+ 		
+ 	}
+
+ }
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: relative;
+	height: 100vh;
+	max-height: 100vh;
+	max-width: 100vw;
+	h1 {
+		color: mix($sixthColor, #555);
+	}
+	.header-item {
+		font-family: 'Cherry Cream Soda', cursive;
+		&:nth-child(3) {
+			text-align: center;
+			align-self: center;
+		
+		}
+
+		&:nth-child(4) {
+			align-self: center;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 130px;
+			color: $secondaryColor;
+			font-size: $bigFont/4;
+			width: 100px;
+			height: 50px;
+			border: 3px solid #ffff77;
+			background: lighten($fifthColor, 10%);
+			animation-name: appear;
+			animation-duration: 1.5s;
+			animation-iteration-count: 1;
+			animation-timing-function: ease-in-out;
+			&:hover {
+				background: lighten($fifthColor, 15%);
+			}
+			
+			border-radius: 10%;
+			@media(min-width: 600px){
+				width: 150px;
+				height: 75px;
+				font-size: $bigFont/3;
+			}
+			@media(min-width: 1200px){
+				width: 180px;
+				height: 90px;
+				font-size: $bigFont/2;
+			}
+
+
+		}
+		
+	}
+	
+
+}
+
+#newParagraph {
+	border: 1px dotted $sixthColor;
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	background: #eeeeee;
+	font-family: 'Raleway', sans-serif;
+	font-size: $mediumFont/1.5;
+
+}
+@for $i from 1 through 6 {
+	h#{$i} {
+		font-family: 'Cherry Cream Soda', cursive;
+		color: mix(#383838, $fifthColor, 45%);
+		text-shadow: 6px 6px 6px silver;
+		text-align: center;
+		@media(max-width: 560px){
+			font-size: $bigFont*0.4/$i;
+		}
+		@media(min-width: 561px){
+			font-size: $bigFont*0.6/$i;
+		}
+		@media(min-width: 796px){
+			font-size: $bigFont*0.8/$i;
+		}
+		
+	}
+
+}
+
+	
+.hamburger {
+margin-left: 10px;
+margin-top: 10px;		
+  width: 40px;
+  height: 35px;
+  border: 0;
+  z-index: 2;
+  border-top: 5px solid lighten($fifthColor, 25%);
+  background: transparent;
+  position: relative;
+  transition: 0.3s transform linear;
+  outline: none;
+}
+
+.hamburger::before, .hamburger::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid lighten($fifthColor, 25%);
+  transform: translateY(10px);
+}
+
+.hamburger::after {
+  transform: translateY(25px);
+  transition: 0.3s transform linear;
+}
+
+.hamburger.focus {
+  transform: rotate(45deg) translateY(5px);
+  border: none;
+}
+
+.hamburger.focus::after {
+  transform: rotate(-90deg) translateX(-10px);
+  border-top: 5px solid $fifthColor;
+}
+.hamburger.focus::before {
+	border-top: 5px solid $fifthColor;
+}
+
+
+
+.invisible {
+	display: none;
+}
+
+nav {
+	font-family: 'Cherry Cream Soda', cursive;
+	display: flex;
+	margin-right: 10px;
+	border-bottom: 4px solid lighten($fifthColor, 10%);
+	height: 90px;
+	position: absolute;
+	background: darken($baseColor, 5%);
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 0;
+
+
+	ul {
+		@include layoutMixin1(transparent);
+		list-style-type: none;
+		width: 100%;
+		height: 80%;
+		margin-right: 20px;
+		margin-left: 35px;
+		text-transform: capitalize;
+		
+		li {
+			color:  #666666;
+			text-shadow: 2px 2px 10px $fifthColor ;
+			margin-left: 10px;
+			margin-top: 20px;
+			margin-bottom:10px;
+			
+			&:nth-of-type(2n){
+				align-self: flex-start;
+			}
+			&:nth-of-type(2n+1){
+				align-self: flex-end;
+			}
+			@media(min-width:420px ){
+				font-size: $bigFont/3.6;
+			}
+			@media(min-width:600px ){
+				font-size: $bigFont/2.8;
+			}
+			@media(min-width:1200px ){
+				font-size: $bigFont/1.7;
+			}
+			a {
+				color: inherit;
+				text-decoration: none;
+				&:hover {
+					color: lighten(#666666, 10%);
+					
+				}
+			}
+		}
+
+	}
+	
+}
+
+
+
+#infoSection {
+	@include layoutMixin2($baseColor);
+	position: relative;
+	max-width: 100vw;
+	height:auto;
+	
+	
+}
+
+
+.hidden {
+	visibility: hidden;
+}
+
+#about {
+	min-height: 50%;
+	width: 65%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	@media(min-width: 600px){
+		padding: 20px 50px;
+	}
+	position: relative;
+	@include layoutMixin2($baseColor);
+		button {
+			margin-top: 10px;
+			background: $sixthColor;
+			color: #dddddd;
+			text-shadow: 2px 2.5px darken($fourthColor, 30%);
+			font-family: 'Cherry Cream Soda', cursive;
+			width:180px;
+			height: 60px;
+			
+			&:nth-of-type(2n){
+			align-self: flex-end;
+			}
+			&:nth-of-type(2n+1){
+				align-self: flex-start;
+			}
+			font-size: $mediumFont/3;
+			@media(min-width: 600px){
+				font-size: $mediumFont/2;
+				width: 255px;
+				height: 85px;
+			}
+			@media(min-width: 1200px){
+				font-size: $mediumFont/1.5;
+				width: 360px;
+				height: 120px;
+			}
+			border: none;
+			border-radius: 5%;
+		}
+	p{
+
+		display: none;
+
+	}
+	p:nth-of-type(2n+1){
+		 width: auto; 
+		 max-width: 100%;
+		 min-height: 80px;
+		 height: auto; 
+		 color: #444444;
+		 padding: 5px;
+		 background: lighten($sixthColor, 30%); 
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		font-size: $bigFont/6;
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-bottom: 40px;
+		 position: relative; 
+		  border-radius: 10px;
+		align-self: flex-start;
+		@media(min-width: 600px){
+			font-size: $bigFont/4.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $bigFont/3.5;
+		}
+		  &:before {
+		  	content:""; 
+			 position: absolute; 
+			 right: 100%; 
+			 top: 26px; 
+			 width: 0; 
+			 height: 0; 
+			 border-top: 13px solid transparent; 
+			 border-right: 26px solid lighten($sixthColor, 30%); 
+			 border-bottom: 13px solid transparent;
+
+		  }
+	}
+	p:nth-of-type(2n){
+		 width: auto; 
+		 max-width: 100%;
+		 min-height: 80px;
+		 height: auto; 
+		 background: lighten($sixthColor, 30%); 
+		 padding: 5px;
+		 color: #444444;
+		 position: relative; 
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		font-size: $bigFont/6;
+		margin-top: 10px;
+		margin-right: 40px;
+		margin-bottom: 40px;
+		  border-radius: 10px;
+		  align-self: flex-end;
+		  @media(min-width: 600px){
+			font-size: $bigFont/4.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $bigFont/3.5;
+		}
+		  &:before {
+		  	content:""; 
+			 position: absolute; 
+			 left: 100%; 
+			 top: 26px; 
+			 width: 0; 
+			 height: 0; 
+			 border-top: 13px solid transparent; 
+			 border-left: 26px solid lighten($sixthColor, 30%); 
+			 border-bottom: 13px solid transparent;
+
+		  }
+	}
+	
+
+}
+
+
+
+#learnSection{
+	@include layoutMixin3($baseColor);
+	height: auto;
+	min-height: 450px;
+	max-width: 100vw;
+	position:relative;
+	
+}
+
+#learn {
+	@include layoutMixin6($baseColor);
+	width: 100%;
+	border-radius: 2%;
+	min-height: 450px;
+	
+	
+	div {
+		min-height: 70%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+	}
+	button {
+		background:  $sixthColor;
+		text-transform: capitalize;
+		border-radius: 20%;
+		width: 80px;
+		height: 40px;
+		line-height: 90%;
+		font-size: $mediumFont/2.8;
+		font-family: 'Cherry Cream Soda', cursive;
+		transition: 0.8s;
+		@media(min-width: 600px){
+			width: 100px;
+			height: 50px;
+			font-size: $mediumFont/2.3;
+		}
+		@media(min-width: 1200px){
+			width: 150px;
+			height: 75px;
+			font-size: $mediumFont/1.6;
+		}
+		
+		&:hover {
+			background:  darken($sixthColor, 10%);
+			text-decoration: underline;
+			color: darken(#cccccc, 20%);
+			text-underline-position: under;
+			transform: scale(1.2);
+		}
+		
+		margin: 5px;
+		border: none;
+		color: white;
+		
+	}
+}
+
+
+
+#gameSection {
+	height: auto;
+	min-width: 300px;
+	max-width: 100vw;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	@include layoutMixin6($baseColor);
+		h1 {
+		font-size: $mediumFont/2;
+		@media(min-width: 600px){
+			font-size: $mediumFont/1.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont;
+		}
+	}
+	h2 {
+		font-size: $mediumFont/2.5;
+		@media(min-width: 600px){
+			font-size: $mediumFont/2;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont/1.5;
+		}
+	}
+
+	article:not(#gameInfo){
+		width: 95%;
+		height:auto;
+		max-height: 50%;
+		@media(min-height: 560px){
+			min-height: 320px;
+			@include layoutMixin6($baseColor);
+		}
+		
+		@include layoutMixin4($baseColor);
+		@media(min-width: 530px){
+			@include layoutMixin1($baseColor);
+			margin-top: 5%;
+		}
+	}
+}
+
+.games {
+	@media(min-width:530px){
+		
+		&:nth-of-type(1) {
+		align-self: flex-start;
+	}
+		&:nth-of-type(4) {
+			align-self: flex-start;
+
+		}
+
+	}
+	
+}
+	
+.games{
+		width: 60px;
+		height: 60px;
+		margin: 5px;
+		background: $sixthColor;
+		border: none;
+		border-radius: 5%;
+		font-size: $mediumFont/4;
+		font-family: 'Cherry Cream Soda', cursive;
+		color: #eeeeee;
+		text-shadow: 2px 2px 3px $fifthColor;
+		padding-top: 40px;
+		text-align: center;
+		@media (min-width:420px) {
+			width: 80px;
+			height: 80px;
+			font-size: $mediumFont/3;
+			transition: 1s;
+			&:hover {
+				transform:scale(1.1);
+			}
+		}
+		@media(min-width:600px){
+			width: 120px;
+			height: 120px;
+			font-size: $mediumFont/2.5;
+		}
+		@media(min-width:1200px){
+			width: 180px;
+			height: 180px;
+			
+			font-size: $mediumFont/2;
+		}
+	
+	
+}
+
+%gamesBtn {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#memoryGame {
+	@extend %gamesBtn;
+	background-image: url("../images/brain.png");	
+}
+
+#triviaGame {
+	@extend %gamesBtn;
+	background-image: url("../images/mini_nerd.png");	
+}
+
+#psychoTest {
+	@extend %gamesBtn;
+	background-image: url("../images/mini_2000px-Inkblot.svg_.png");
+}
+
+#nameBand {
+	@extend %gamesBtn;
+	background-image: url("../images/mini_Band.png");
+	padding-top: 40px;
+	@media(min-width: 600px){
+		padding-top: 60px;
+	}
+	@media(min-width: 1200px){
+		padding-top: 80px;
+	}
+}
+
+
+#triviaSection, #testSection {
+	@include layoutMixin3($baseColor);
+	margin: 0 auto;
+	margin-top: 100px;
+	height: auto;
+	max-height: 100vh;
+	width: 80vw;
+	max-width: 100vw;
+	//display: none;
+	h1 {
+		font-size: $mediumFont/2;
+		@media(min-width: 600px){
+			font-size: $mediumFont/1.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont;
+		}
+	}
+	h2 {
+		font-size: $mediumFont/2.5;
+		@media(min-width: 600px){
+			font-size: $mediumFont/2;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont/1.5;
+		}
+	}
+}
+
+
+#bandNamingSection {
+	width: 90vw;
+	min-height: 300px;
+	max-height: 100vh;
+	@include layoutMixin3($baseColor);
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 4px solid $fifthColor;
+	border-radius: 5%;
+	h2 {
+		font-family: 'Cherry Cream Soda', cursive;
+		color: $sixthColor;
+		font-size: $mediumFont/2;
+		@media(min-width: 600px){
+			font-size: $mediumFont/1.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont/1.2;
+		}
+		text-align: center;
+
+	}
+	p {
+		width: 80%;
+		color: #666;
+		font-size: $mediumFont/3;
+		&:first-letter {
+			color: $sixthColor;
+			font-family: 'Cherry Cream Soda', cursive;
+		}
+		@media(min-width: 600px){
+			font-size: $mediumFont/2;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont/1.5;
+		}
+		text-align: center;
+		font-family: 'Raleway', sans-serif;
+	}
+	article {
+		@include layoutMixin3($baseColor);
+		width: 85vw;
+		min-height: 230px;
+		max-height: 80vh;
+		border-radius: 5%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		//border: 2px solid red;
+	
+	}
+	.appDiv{
+		@include layoutMixin2($baseColor);
+		width: 75vw;
+		min-height: 230px;
+		max-height: 70vh;
+		border-radius: 5%;
+		padding-top: 20px;
+		//border: 2px solid orange;
+		@media(min-width: 600px){
+			@include layoutMixin1($baseColor);
+		}
+	}
+
+	.buttonsDiv {
+		//border: 2px solid lime;
+		width: 100%;
+		height: 50px;
+		@include layoutMixin1(transparent);
+	}
+	h3 {
+		font-family: 'Cherry Cream Soda', cursive;
+		color: $sixthColor;
+		font-size: $mediumFont/2;
+		text-align: center;
+		margin-top: 20px;
+		@media(min-width: 600px){
+			font-size: $mediumFont/1.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont;
+		}
+		
+
+
+	}
+	button {
+		background-color: $fifthColor;
+		color: $baseColor;
+		text-transform: uppercase;
+		font-weight: bolder;
+		padding: 5px;
+		font-family: 'Raleway', sans-serif;
+		height: 50px;
+		width: 200px;
+		@media(min-width: 600px){
+			width: 150px;
+			font-size: $mediumFont/2.5;
+		}
+
+		@media(min-width: 850px){
+			width: 200px;
+			font-size: $mediumFont/2;
+		}
+		@media(min-width: 1200px){
+			width: 250px;
+			height: 65px;
+			font-size: $mediumFont/1.5;
+		}
+		font-size: $mediumFont/2;
+		border: none;
+		border-radius: 5%;
+		margin-top: 10px;
+		text-decoration: none;
+	}
+	
+
+	.bandResultsArticle {
+		font-family: 'Carter One', cursive;
+		font-size: $mediumFont/2;
+		@media(min-width: 600px){
+			font-size: $mediumFont/1.5;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont;
+		}
+		color: $fifthColor;
+		text-align: center;
+	}
+}
+
+.back, .videoLink {
+		padding-top: 3px;
+		background-color: $fifthColor;
+		color: $baseColor;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: bolder;
+		font-family: 'Raleway', sans-serif;
+		height: 20px;
+		width: 180px;
+		border-radius: 5%;
+		font-size: $mediumFont/3;
+		margin: 2%;
+		@media(min-width: 600px){
+			width: 120px;
+			height: 30px;
+			padding-top: 7px;
+			font-size: $mediumFont/2.5;
+		}
+
+		@media(min-width: 850px){
+			width: 160px;
+			height: 40px;
+			padding-top: 10px;
+		}
+		
+		border: none;
+		border-radius: 5%;
+		margin-bottom: 10px;
+		text-decoration: none;
+		
+	}
+
+footer {
+	height: 100vh;
+	min-height: 550px;
+	max-width: 100vw;
+	text-align: center;
+	color: white;
+	
+	h1,h2 {
+		color: mix($sixthColor, #666);
+		text-shadow: 5px 5px 6px silver;
+	}
+	section {
+		@include layoutMixin2(transparent);
+		height: 90%;
+		min-height: 450px;
+		border: none;
+		@media(min-width: 796px){
+			@include layoutMixin1(transparent);
+			
+		}
+	}
+	article {
+		@include layoutMixin6(transparent);
+		width: 90%;
+		height: 90%;
+		@media(min-width: 796px){
+			width: 40%;
+			height: 45%;
+			&:nth-of-type(2) {
+			align-self: flex-end;
+			}
+			
+		}
+		
+		
+	}
+	ul {
+		list-style: none;
+		@include layoutMixin3(transparent);
+		li {
+			color: lighten(#ffff77, 20%);
+			text-shadow: 5px 5px 5px $fifthColor;
+			font-weight: bolder;
+			font-style: italic;
+			margin: 10px;
+			font-family: 'Raleway', sans-serif;
+			text-decoration: underline;
+			a{
+				color: inherit;
+				font-size: $mediumFont/3;
+				@media(min-width:600px){
+					font-size: $mediumFont/2;
+				}
+				@media(min-width:1200px){
+					font-size: $mediumFont/1.7;
+				}
+			}
+		}
+	}
+
+	button {
+		width: 50px;
+		height: 50px;
+		background: #efefef;
+		border-radius: 50%;
+		padding-top: 5px;
+		color: $fourthColor;
+		border: none;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		font-size: $mediumFont;
+		font-weight: bold;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+/* elements not yet existing in DOM */
+
+/*for learning buttons events */
+
+.infoBoard {
+	width: 100%;
+	height: 450px;
+	background-color: rgba(204,204,204,0.90);
+  	background-repeat:  no-repeat;
+  	background-position:  center center;
+  	background-size: cover;
+	position: absolute;
+	top: 0;
+	left:0;
+	@include layoutMixin3($baseColor);
+
+
+	.infoParagraph {	
+		padding: 10px;
+    	font-family: 'Raleway', sans-serif;
+    	font-weight: bold;
+		text-align: center;
+		margin: 0 auto;
+		height: auto;
+		width: 90%;
+		color: mix($sixthColor, #666);
+		font-weight: bolder;
+		font-size: $mediumFont/3;
+		&:first-letter {
+			color: $sixthColor;
+			font-family: 'Cherry Cream Soda', cursive;
+		}
+		@media(min-width: 600px){
+			font-size: $mediumFont/2.2;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont/1.8;
+		}
+
+	}
+
+	button:not(.hideBtn) {
+		background:  $sixthColor;
+		border-radius: 5%;
+		width: auto;
+		height: auto;
+		font-size: $mediumFont/6;
+		font-family: 'Cherry Cream Soda', cursive;
+		transition: 0.8s;
+		&:hover {
+			background: lighten($sixthColor, 10%);
+		}
+		@media(min-width: 600px){
+			width: 100px;
+			height: 50px;
+			font-size: $mediumFont/4;
+		}
+		@media(min-width: 1200px){
+			width: 150px;
+			height: 75px;
+			font-size: $mediumFont/2.5;
+		}
+		
+		margin: 5px;
+		border: none;
+		color: white;
+		
+	}
+	.hideBtn {
+
+		background:  $sixthColor;
+		border-radius: 5%;
+		width: auto;
+		height: auto;
+		font-size: $mediumFont/3.2;
+		font-family: 'Cherry Cream Soda', cursive;
+		transition: 0.8s;
+
+		&:hover {
+			background: lighten($sixthColor, 10%);
+		}
+		@media(min-width: 600px){
+			width: 75px;
+			height: 30px;
+			font-size: $mediumFont/3;
+		}
+		@media(min-width: 1200px){
+			width: 100px;
+			height: 50px;
+			font-size: $mediumFont/2;
+		}
+		
+		margin: 5px;
+		border: none;
+		color: white;
+
+	}
+
+}
+
+@for $i from 1 through 13 {
+	#board#{$i} {
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+		filter: grayscale(90%);
+
+	}
+}
+
+.photoDiv {
+	width: 150px;
+	height: 150px;
+	//border: 3px solid $fifthColor;
+	@media(min-width: 420px){
+		width: 200px;
+		height: 200px;
+	}
+	@media(min-width: 960px){
+		width: 250px;
+		height: 250px;
+	}
+	animation-name: appear;
+	animation-duration: 1.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	
+	
+}
+#board1{
+	background-image: url("../images/eurodance.jpg");
+}
+#board2{
+	background-image: url("../images/girlpower.jpg");
+
+}
+#board3{
+	background-image: url("../images/boybands.jpg");
+	
+	
+}
+#board4{
+	background-image: url("../images/clueless.jpg");
+}
+#board5{
+	background-image: url("../images/newage.jpg");
+	background-position: center center;
+	
+}
+#board6{
+	background-image: url("../images/nirvana2.jpg");
+	
+}
+#board7{
+	background-image: url("../images/mini_brenda.jpg");
+}
+#board8{
+	background-image: url("../images/bravo.jpg");
+	background-size: contain;
+	
+}
+#board9{
+	background-image: url("../images/zeitgeist.jpg");
+	
+}
+#board10{
+	background-image: url("../images/klan.jpg");
+	
+}
+
+#board11{
+	background-image: url("../images/bsbnsync.jpeg");
+	background-size: contain;
+	
+	
+}
+
+#board12{
+	background-image: url("../images/polandlifestyle.jpg");
+	
+}
+#board13{
+	background-image: url("../images/mcd.jpg");
+	
+}
+
+
+
+
+
+
+/* for games */
+.board {
+	max-width: 100vw;
+	max-height: 100vh;
+	background: inherit;
+	@include layoutMixin3($baseColor);
+
+	#start {
+	background-image: url("../images/brain.png");
+	width: 120px;
+	height: 120px;
+	margin-top: 20px;
+	@extend %gamesBtn;
+	text-transform: uppercase;
+	font-family: 'Cherry Cream Soda', cursive;
+	background-color: $baseColor;
+	color: mix($fifthColor, $sixthColor, 30%);
+	font-size: $mediumFont/2;
+	border: none;
+		@media( min-width: 420px){
+				width: 150px;
+				height: 150px;
+				font-size: $mediumFont/1.5;
+			}
+
+		@media( min-width: 796px){
+			width: 250px;
+			height: 250px;
+			font-size: $mediumFont;
+			
+		}
+	}
+}
+
+#divContainer {
+	@include layoutMixin4($secondaryColor);
+	width: 100%;
+	height: auto;
+	@media(min-height:560px){
+		max-height: 250px;
+		@include layoutMixin3($secondaryColor);
+	}
+	
+}
+
+.startTest {
+	width: 60px;
+	height: 45px;
+	background-color:darken($sixthColor, 5%);
+	color: white;
+	font-size: $mediumFont/3;
+	border-radius: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 2s;
+	border: none;
+	@media(min-height:560px){
+
+		@media(min-width:600px){
+			width: 100px;
+			height: 45px;
+			&:nth-of-type(2n+1){
+			align-self: flex-start;
+			margin-left: 20%;
+
+			}
+			&:nth-of-type(2n){
+				align-self: flex-end;
+				margin-right: 20%;
+				
+			}
+		}
+	}
+	
+	&:hover {
+		transform: scale(1.2)translate(0px, 10px);
+	}
+	
+	font-family: 'Cherry Cream Soda', cursive;
+		@media( min-width: 420px){
+				width: 100px;
+				height: 60px;
+				font-size: $mediumFont/2.5;
+			}
+
+		@media( min-width: 796px){
+			width: 150px;
+			height: 70px;
+			font-size: $mediumFont/2;
+		}
+		@media( min-width: 1200px){
+			width: 180;
+			height: 90px;
+			font-size: $mediumFont/1.5;
+		}
+}
+
+
+#testBoard {
+	@include layoutMixin3($baseColor);
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	min-height: 50%;
+	max-height: 85%;
+	margin: 0 auto;
+	padding: 20px;
+	background: $secondaryColor;
+	position: relative;
+}
+#testBoard h3 {
+		text-align: center;
+		color: $fifthColor;
+		text-shadow: 3px 3px darken($baseColor, 10%);
+		font-family: 'Cherry Cream Soda', cursive;
+		font-size: $mediumFont/2.4;
+		@media (min-width: 560px){
+			font-size: $mediumFont/1.5;
+		}
+	}
+#gameBoard {
+	margin-bottom: 10px;
+}
+.transparency {
+	background-color: rgba(255,255,255, 0.01) !important;
+	border: none;
+}	
+#gameBoard, .gameOver {
+	@include gamesBoards(inherit);
+	width: 294px;
+	height: 294px;
+	@media (min-width: 420px){
+		width: 320px;
+		height: 320px;
+	}
+	@media (min-width: 796px){
+		width: 400px;
+		height: 400px;
+	}
+	background: lighten($baseColor, 15%);
+		
+}
+
+.gameOver {
+	height: auto;
+	text-transform: uppercase;
+	font-size: $mediumFont/1.5;
+	color: $fifthColor;
+	border: none;
+	background-color: $baseColor;
+	font-family: 'Cherry Cream Soda', cursive;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+div.boardDiv {
+		width: 19%;
+		height: 24%;
+		@extend %gamesBtn;
+		
+	}
+#resultsDiv {
+	width: 100%;
+	height: auto;
+	color: mix($sixthColor, $fifthColor);
+	background: $baseColor;
+	font-family: 'Cherry Cream Soda', cursive;
+	text-align: center;
+	font-size: $mediumFont/2;
+	@media(min-width:600px){
+		font-size: $mediumFont/1.2;
+
+	}
+	@media(min-width: 1200px){
+		font-size: $mediumFont;
+	}
+	text-shadow: 2px 3px #cccccc;
+}
+
+/*classes for memory game */
+
+#coveringBtn{
+	width: 200px;
+	height: 50px;
+	font-size: $bigFont/3.4;
+	font-family: 'Cherry Cream Soda', cursive;
+	background-color: #efefef;
+	color: $fifthColor;
+	border: 3px solid $sixthColor;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	border: none;
+	border-radius: 5%;
+}
+.clickInfo {
+	width: auto;
+	height: auto;
+	font-size: $mediumFont/3;
+	@media(min-width:560px){
+		font-size: $bigFont/3;
+	}
+	font-family: 'Cherry Cream Soda', cursive;
+	background-color: #efefef;
+	color: mix($sixthColor, $fifthColor);
+	margin-left: 10px;
+	border: none;
+	border-radius: 5%;
+
+}
+#gameInfo {
+	@include layoutMixin4($baseColor);
+	width: 294px;
+	padding: 5px;
+	@media (min-width: 420px){
+		width: 320px;
+	}
+	@media (min-width: 796px){
+		width: 400px;
+	}
+	margin-top: 4px;
+}
+.tamagotchi {
+	
+	background-image: url("../images/mini_tamagotchi.png");
+}
+
+.beverlyHills {
+	
+	background-image: url("../images/mini_brenda.jpg");
+}
+
+.kellyFamily {
+	
+	background-image: url("../images/mini_paddy.jpg");
+}
+
+.euroDance {
+	
+	background-image: url("../images/captain.jpg");
+}
+.boyband {
+	
+	background-image: url("../images/mini_bsb.jpeg");
+}
+.girlband {
+	
+	background-image: url("../images/mini_spice.jpg");
+}
+.macdonald {
+	
+	background-image: url("../images/mini_burger.jpeg");
+}
+.furby {
+	
+	background-image: url("../images/mini_Furby_picture.jpg");
+}
+
+.nirvana {
+	
+	background-image: url("../images/mini_nirvana.jpg");
+}
+.fashion {
+	
+	background-image: url("../images/mini_clueless.jpg");
+}
+
+.covered {
+	background: darken($baseColor, 15%);
+}
+
+#scoreBoard {
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: $secondaryColor;
+	color: $fifthColor;
+	font-family: 'Cherry Cream Soda', cursive;
+	font-size: $bigFont/3;
+
+}
+
+/*dla trivia quizu */
+
+#triviaBoard {
+	
+	@extend %gamesBtn;
+	@include layoutMixin3($secondaryColor);
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	min-height: 50%;
+	max-height: 85%;
+	margin: 0 auto;
+	background-color: $secondaryColor;
+
+}
+
+.startTrivia {
+	width: auto;
+	height: auto;
+	text-align: center;
+	@extend %gamesBtn;
+	color: $baseColor;
+	text-shadow: 1px 1px #555555;
+	font-size: $mediumFont/2.5;
+	border: none;
+	&:nth-of-type(1){
+		align-self: flex-start;
+		margin-left: 10px;
+	}
+	&:nth-of-type(2){
+		align-self: center;
+		border-radius: 20%;
+		background-color: $sixthColor;
+		border: 2px solid darken($sixthColor, 10%);
+	}
+	&:nth-of-type(3){
+		align-self: flex-end;
+		margin-right: 10px;
+	}
+	@media(min-height: 560px){
+		&:nth-of-type(2n+1){
+		align-self: flex-start;
+		margin-left: 25%;
+
+		}
+		&:nth-of-type(2n){
+			align-self: flex-end;
+			margin-right: 25%;
+			
+		}
+	}
+	transition: 2s;
+	&:hover {
+		transform: scale(1.2)translate(0px, -10px);
+	}
+	&:nth-of-type(1){
+		margin-top: 20px;
+		border-radius: 50%;
+		background-color: lighten($sixthColor, 10%);
+		border: 2px solid $sixthColor;
+	}
+	&:nth-of-type(3){
+		margin-bottom: 20px;
+		border-radius: 1%;
+		background-color: $fifthColor;
+		border: 2px solid darken($fifthColor, 10%);
+	}
+	
+	
+	font-family: 'Cherry Cream Soda', cursive;
+		@media( min-width: 600px){
+				font-size: $mediumFont/1.9;
+			}
+
+		@media( min-width: 800px){
+			font-size: $mediumFont/1.5;
+			
+		}
+		@media( min-width: 1200px){
+			font-size: $mediumFont;
+			
+		}
+}
+
+
+
+
+.title {
+	color: $sixthColor;
+	font-size: $mediumFont/3;
+	text-decoration: underline;
+
+	@media(min-width: 600px){
+		font-size: $mediumFont/2.2;
+	}
+	@media(min-width:900px) {
+		font-size: $mediumFont/1.8;
+	}
+	font-family: 'Cherry Cream Soda', cursive;
+	text-align: center;
+	text-shadow: none;
+	margin-top: 10px;
+}
+.secondsInfo {
+	font-family: 'Cherry Cream Soda', cursive;
+	color: $fifthColor;
+	height: 70px;
+	line-height: 70px;
+	width: 320px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: $secondaryColor;
+	border: 2px solid $fifthColor;
+	border-radius: 5%;
+	font-size: $mediumFont/2; 
+	
+}
+
+.quizDiv {
+	@include layoutMixin2($secondaryColor);
+	margin-top: 10px;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	label {
+		background: $baseColor;
+		width: 80%;
+		height: 40px;
+		line-height: 40px;
+		margin-top: 5px;
+		font-family: 'Raleway', sans-serif;
+		text-overflow: ellipsis;
+		text-transform: uppercase;
+		color: $fifthColor;
+		font-weight: bold;
+		font-size: $mediumFont/4.2;
+		@media(min-width: 600px){
+			font-size: $mediumFont/3;
+		}
+		@media(min-width: 1200px){
+			font-size: $mediumFont/2;
+		}
+	}
+}
+.checked {
+	border: 2px solid $sixthColor;
+}
+
+input[type="radio"] {
+	opacity: 0.001;
+}
+
+.quizButton {
+	background: $fifthColor;
+	font-size: $mediumFont/2.5;
+	color: white;
+	&:hover{
+		color: darken(white, 20%);
+	}
+	border: none;
+	height: 30px;
+	width: 60px;
+	margin: 10px 0px;
+	line-height: 30px;
+	border-radius: 4%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.alertBox {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	text-align: center;
+	animation-name: appear;
+	animation-duration: .75s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	background-image: url("../images/scaryspice.png");
+	background-color: rgba(255,255,255,0.95);
+	@include layoutMixin2($baseColor);
+	justify-content: flex-end;
+	p{
+		font-family: 'Cherry Cream Soda', cursive;
+		font-size: $mediumFont/2;
+		@media(min-width: 600px){
+			font-size: $mediumFont/1.5;
+		}
+		font-weight: bolder;
+		color: $fourthColor;
+		text-shadow: 1px 2px white;
+		width: 80%;
+		padding: 15%;
+	}
+	button {
+		width: auto;
+		height: auto;
+		border: none;
+		border-radius: 10%;
+		margin-bottom: 10px;
+		font-size: $mediumFont/2;
+		font-family: 'Cherry Cream Soda', cursive;
+		color: #cccccc;
+		background: $fifthColor;
+	}
+}
+.resultsBoard {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 90%;
+	height: auto;
+	@include layoutMixin3(transparent);
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: $fifthColor;
+	text-align: center;
+	font-size: $mediumFont/2;
+	@media(min-width: 600px){
+		font-size: $mediumFont/1.5;
+	}
+	@media(min-width: 1200px){
+		font-size: $mediumFont;
+	}
+
+	
+}
+.comeback {
+	width: 90px;
+	height: 40px;
+	background: $fifthColor;
+	border-radius: 5%;
+	color: $baseColor;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Cherry Cream Soda', cursive;
+}
+.resultsParagraph {
+	font-size: $bigFont/6;
+	font-weight: bold;
+	@media(min-width: 330px){
+		font-size: $bigFont/5;
+	}
+	@media(min-width:680px){
+		font-size: $bigFont/4.5;
+	}
+	@media(min-width: 1000px){
+		font-size: $bigFont/3;
+	}
+	
+	text-align:center;
+}

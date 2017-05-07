@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="eng-ENG">
+   <head>
+      <meta charset="UTF-8">
+      <title>long live the 90s</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Carter+One|Cherry+Cream+Soda|Raleway" rel="stylesheet"> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+   </head>
+   <body>
+      <header>
+        <button class="header-item hamburger"></button>
+        <nav class="header-item invisible" id="nav">
+            <ul class="menu">
+               <li><a href="#infoSection">about</a></li>
+               <li><a href="#learnSection">learn</a></li>
+               <li><a href="#gameSection">games</a></li>
+               <li><a href="#contact">contact</a></li>
+            </ul>
+         </nav>
+         <h1 class="header-item">Long live the 90s</h1>
+         <button href ="#gameSection" class="header-item">games</button>
+      </header>
+      <section id ="infoSection">
+         <article id ="about">
+            <h1>Q and A</h1>
+            <h2>*(You need to press the buttons)</h2>
+            <button>Why did you make this website?</button>
+            <p>
+              I belong to a group some people call the 90s kids. I remember things like the millenium bug, the opening of the first McDonald's in Warsaw, as well as the time internet was a luxury. I wanted to share my memories.
+            </p>
+            <button>What were your favourite things about the 90s?</button>
+            <p>
+              Hard to answer, really! I think my favourite thing was the fashion. Could not wear the cool stuff though, I was to young. Some of it is making a comeback, I might give it a try now!
+            </p>
+            <button>Did you have a favourite band?</button>
+            <p>
+              Ok, now you can all start to laugh, but I was really into boybands. My favourite one was the Backstreet Boys and I did have a crush on Nick. However, later on I started to like Justin Timberlake way more. 
+            </p>
+            <button>Was there any movie you liked?</button>
+            <p>
+              Yes, in fact there were quite a few. The ones that really got stuck in my mind were "Philadelphia" -cried a lot when I first saw it and it really shaped my worldview- and "Fight Club". The other ones are "American History X" and "Primal Fear" -geez, the latter was scary. All in all, this might mean I really like Edward Norton. I do.
+            </p>
+            <button>Was there anything you did NOT like?</button>
+            <p>
+             Several things, I guess. I will tell you about just one. I remember the time Michael Jackson visited Poland. Even as a kid I found it a bit <em><big>absurd</em></big> and a bit <em>insulting</em> that a popstar was invited to see the <em><strong>president</em></strong> and ministers. 
+            </p>
+         </article>
+      </section>
+     
+      <section id ="learnSection">
+        <article id="learn">
+           <h1>Learn</h1>
+            <h2>*(Press the buttons)</h2>
+           <div id="buttons">
+              <button data-text ="euro-dance">euro dance
+              </button>
+              <button data-text="girl-power">girl power</button>
+              <button data-text ="boybands">boybands</button>
+              <button data-text= "fashion">fashion</button>
+              <button data-text ="new-age">new age</button>
+              <button data-text="grunge">grunge</button>
+              <button data-text ="soap operas">soap operas</button>
+              <button data-text="bravo">bravo</button>
+              <button data-text ="zeitgeist">zeitgeist</button>
+              <button data-text="klan">klan</button>
+              <button data-text="fan wars">fan wars</button>
+              <button data-text="poland">poland</button>
+              <button data-text="lifestyle">lifestyle</button>
+           </div>
+         </article>    
+      </section>
+      <section id ="gameSection">
+         <h1 id="games"> Games center</h1>
+         <h2>Pick a game you want to play</h2>
+         <article>
+            <button class="games" id="memoryGame">
+            Memory
+            </button>
+            <button class="games" id="triviaGame">
+              Trivia
+            </button>
+            <button class="games" id="psychoTest">
+              Personality
+            </button>
+            <button class="games" id="nameBand">
+             Name-A-Band
+            </button> 
+         </article>
+      </section>
+      <section class ="triviaSection invisible">
+      	<h1>Welcome to the quiz</h1>
+        <h2>Choose level</h2>
+      </section>
+      <section class ="testSection invisible" >
+      <h1>Personality test</h1>
+      <h2>Pick one to take</h2>
+      </section>
+      <section class ="bandNamingSection invisible">
+          <h2>Name your band</h2>
+          <article class = "introduction">
+            <p> So you want to be a star. A Mega Star, more precisely.</p> 
+            <p>Want your face to be on posters.</p> 
+            <p>You dream of money, fame and all this kind of stuff.</p>
+            <p> Before you head off to the record company office, you need a name!</p>
+            <p>Worry not, prospective idol. Luckily for you, I designed this app and naming your band will be plain sailing! You can also watch a music video for some inspiration!
+            </p>
+            <button>begin</button>
+          </article>
+      </section>
+      <footer id ="contact">
+      	<section>
+          <article>
+            <h1>Liked it?</h1>
+            <ul>
+              <li><a href="https://ewagrela.github.io/">visit my profile</a></li>
+              <li>&copy Ewa Trojanowska 2017</li>
+            </ul> 
+         </article> 
+         <article>
+            <h2>Sources</h2>
+            <ul>
+              <li><a href="https://pixabay.com/en/">pixabay</a></li>
+              <li><a href="http://www.freeimages.co.uk/index.htm">free images</a></li>
+              <li><a href="http://pl.pinterest.com/">pinterest</a></li>
+            </ul>
+         </article> 
+        </section>
+        <button href="#nav">^</button>
+      </footer>
+      <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyBAOcZlmBJppmjEBAOX2P21-fZrR_8QQk0",
+          authDomain: "quiz-a27b1.firebaseapp.com",
+          databaseURL: "https://quiz-a27b1.firebaseio.com",
+          storageBucket: "quiz-a27b1.appspot.com",
+          messagingSenderId: "379171142762"
+        };
+        firebase.initializeApp(config);
+      </script>
+      <script type="text/javascript" src="js/variables.js"></script>
+      <script type="text/javascript" src="js/functions.js"></script>
+      <script type="text/javascript" src="js/page.js"></script>
+      <script type="text/javascript" src="js/quizes.js"></script>
+      <script type="text/javascript" src ="js/memory.js"></script>
+      <script type="text/javascript" src="js/bandName.js"></script>
+   </body>
+</html>
+
